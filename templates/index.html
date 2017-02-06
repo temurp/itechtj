@@ -1,0 +1,529 @@
+{% extends "base.html" %}
+{% block body %}
+<!-- HERO SECTION -->
+        <section id="heroimage" id="up" data-magellan-target="up">
+          <div class="row intro">
+            <div class="small-centered medium-uncentered medium-9 large-9 columns">
+              <h1>Мы предоставляем услуги IT-аутсорсинга</h1>
+              <p>Don't you want to take a leap of faith? Or become an old man, filled with regret, waiting to die alone!</p>
+              <div data-magellan data-options="barOffset:45;">
+              <a href="#first" class="button">Подробнее</a>
+              </div>
+            </div>
+        </section>
+        
+<!-- ABOUT US SECTION -->
+      <div class="row" id="first" data-magellan-target="first">
+          <div class="small-8 medium-12 columns">
+            <h2 class="text-center myheader">Мы крутая компания </h2>
+            <p class="text-justify">Занимаемся <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="Частичная или полная передача работ по поддержке, обслуживанию и модернизации ИТ-инфраструктуры в наши руки">IT-аутсорсингом</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expeditaLorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expeditaLorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita</p>
+          </div>
+      </div>
+
+<div class="zz"></div>
+<hr>
+
+<h2 class="text-center myheader">Наши преимущества</h2>
+<div class="row features">
+      <div class="medium-4 columns">
+        <div class="round-icon">
+          <span class="fi-widget"></span>
+        </div>
+        <h3>Профессионализм</h3>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra, lacus id interdum ultrices, elit metus semper tellus.</p>
+      </div>
+      <div class="medium-4 columns">
+        <div class="round-icon">
+          <span class="fi-graph-bar"></span>
+        </div>
+        <h3>Надежность</h3>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra, lacus id interdum ultrices, elit metus semper tellus.</p>
+      </div>
+      <div class="medium-4 columns">
+        <div class="round-icon">
+          <span class="fi-download"></span>
+        </div>
+        <h3>Мы красавельники</h3>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra, lacus id interdum ultrices, elit metus semper tellus.</p>
+      </div>
+    </div>
+
+<hr >
+
+
+<h2 class="text-center myheader" id="uslugi" data-magellan-target="uslugi">Услуги</h2>
+<h6 class="text-center"><a data-open="priceTable">Подробнее</a></h6>
+<div class="reveal wrap" id="priceTable" data-reveal>
+<a href="static/files/prices.pdf">Скачать в PDF</a>
+<a href="static/files/prices.xlsx">Скачать в Excel</a>
+
+
+<ul class="tabs" data-tabs id="example-tabs">
+  <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Разовые услуги</a></li>
+  <li class="tabs-title"><a href="#panel2">Установка и настройка программного обеспечения</a></li>
+  <li class="tabs-title"><a href="#panel3">Установка и восстановление серверного программного обеспечения</a></li>
+  <li class="tabs-title"><a href="#panel4">Система обмена сообщений</a></li>
+  <li class="tabs-title"><a href="#panel5">Установка терминальной сети</a></li>
+  <li class="tabs-title"><a href="#panel6">Установка и настройка оборудования</a></li>
+  <li class="tabs-title"><a href="#panel7">Linux</a></li>
+  <li class="tabs-title"><a href="#panel8">Восстановление данных на жёстких дисках</a></li>
+</ul>
+
+<div class="tabs-content" data-tabs-content="example-tabs">
+  <div class="tabs-panel is-active" id="panel1">
+    <table>
+      <thead>
+        <tr>
+          <th>Услуга</th>
+          <th>Цена (сомони)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Выезд специалиста по г. Душанбе</td>
+          <td>20,00</td>
+        </tr>
+        <tr>
+          <td>Выезд специалиста  за г.Душанбе  (РРП) </td>
+          <td>60,00</td>
+        </tr>
+        <tr>
+          <td>Диагностика неисправности</td>
+          <td>50,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="tabs-panel" id="panel2">
+    <table>
+      <thead>
+        <tr>
+          <th>Услуга</th>
+          <th>Цена (сомони)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Настройка рабочей станции на MS Windows XP / 7 /10  (с установкой ОС)</td>
+          <td>80,00</td>
+        </tr>
+        <tr>
+          <td>Установка MS Windows NT Server 4.0 / 2000 Server / 2003/ 2008</td>
+          <td>200,00</td>
+        </tr>
+        <tr>
+          <td>Настройка службы DNS, DHCP, FTP, AD</td>
+          <td>50,00</td>
+        </tr>
+        <tr>
+          <td>Организация системы резервного копирования</td>
+          <td>50,00</td>
+        </tr>
+        <tr>
+          <td>Добавление пользователей в домен за ед.</td>
+          <td>20,00</td>
+        </tr>
+        <tr>
+          <td>Подключение 1..20 рабочих станций в локальную сеть, (без монтажных работ), за 1 шт.</td>
+          <td>20,00</td>
+        </tr>
+        <tr>
+          <td>Установка MS SQL Server</td>
+          <td>100,00</td>
+        </tr>
+        <tr>
+          <td>Установка MS Office 2003-2013</td>
+          <td>10,00</td>
+        </tr>
+        <tr>
+          <td>Установка и настройка антивирусных пакетов, за 1 шт.</td>
+          <td>20,00</td>
+        </tr>
+        <tr>
+          <td>Поиск и устранение вирусов (за 1 компьютер)</td>
+          <td>30,00</td>
+        </tr>
+        <tr>
+          <td>Установка дополнительного ПО, за единицу</td>
+          <td>20,00</td>
+        </tr>
+        <tr>
+          <td>Настройка почтового клиента</td>
+          <td>20,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="tabs-panel" id="panel3">
+      <table>
+        <thead>
+          <tr>
+            <th>Услуга</th>
+            <th>Цена (сомони)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Восстановление MS Windows NT Server 4.0 / 2000 Server с сохранением данных</td>
+            <td>300,00</td>
+          </tr>
+          <tr>
+            <td>Установка / настройка прокси-сервера/firewall (WinRoute, WinGate, WinProxy, ISA)</td>
+            <td>200,00</td>
+          </tr>
+          <tr>
+            <td>Установка / настройка почтового сервера Kerio</td>
+            <td>150,00</td>
+          </tr>
+          <tr>
+            <td>Изменение схемы маршрутизации</td>
+            <td>100,00</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+  <div class="tabs-panel" id="panel4">
+    <table>
+      <thead>
+        <tr>
+          <th>Услуга</th>
+          <th>Цена (сомони)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Настройка 1 рабочей станции на MS Exchange Server</td>
+          <td>30,00</td>
+        </tr>
+        <tr>
+          <td>Установка MS Exchange Server</td>
+          <td>150,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="tabs-panel" id="panel5">
+    <table>
+      <thead>
+        <tr>
+          <th>Услуга</th>
+          <th>Цена (сомони)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Установка Terminal Server</td>
+          <td>60,00</td>
+        </tr>
+        <tr>
+          <td>Настройка Terminal Client, за 1 рабочую станцию</td>
+          <td>10,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="tabs-panel" id="panel6">
+    <table>
+      <thead>
+        <tr>
+          <th>Услуга</th>
+          <th>Цена (сомони)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Установка/настройка принтера, сканера, DSL модема</td>
+          <td>30,00</td>
+        </tr>
+        <tr>
+          <td>Установка/замена материнской платы с перенастройкой системы</td>
+          <td>100,00</td>
+        </tr>
+        <tr>
+          <td>Установка/замена жёсткого диска с переносом данных и системы</td>
+          <td>80,00</td>
+        </tr>
+        <tr>
+          <td>Установка/замена процессора</td>
+          <td>50,00</td>
+        </tr>
+        <tr>
+          <td>Установка/замена FDD, CD-ROM, DVD-ROM, CD-R, CD-RW</td>
+          <td>20,00</td>
+        </tr>
+        <tr>
+          <td>Установка/замена модулей памяти</td>
+          <td>10,00</td>
+        </tr>
+        <tr>
+          <td>Установка/настройка видеокарты</td>
+          <td>20,00</td>
+        </tr>
+        <tr>
+          <td>Установка/настройка SCSI-контроллера</td>
+          <td>20,00</td>
+        </tr>
+        <tr>
+          <td>Установка/настройка сетевой карты</td>
+          <td>20,00</td>
+        </tr>
+        <tr>
+          <td>Установка/замена других внутренних контроллеров</td>
+          <td>20,00</td>
+        </tr>
+        <tr>
+          <td>Установка/замена блока питания</td>
+          <td>20,00</td>
+        </tr>
+        <tr>
+          <td>Модернизация компьютера</td>
+          <td>50,00</td>
+        </tr>
+        <tr>
+          <td>Настройка драйверов устройств</td>
+          <td>20,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="tabs-panel" id="panel7">
+    <table>
+      <thead>
+        <tr>
+          <th>Услуга</th>
+          <th>Цена (сомони)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Установка *NIX</td>
+          <td>400,00</td>
+        </tr>
+        <tr>
+          <td>Настройка *NIX (Установка служб)</td>
+          <td>400,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="tabs-panel" id="panel8">
+    <table>
+      <thead>
+        <tr>
+          <th>Услуга</th>
+          <th>Цена (сомони)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Восстановление данных при разрушении файловой системы</td>
+          <td>200,00</td>
+        </tr>
+        <tr>
+          <td>Восстановление данных при неисправном контроллере жесткого диска</td>
+          <td>400,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+  <button class="close-button" data-close aria-label="Close reveal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+
+<div class="myback">
+      <div class="row features2">
+          <div class="medium-4 columns fi-laptop">
+            <h5>Готовые Wi-Fi решения для общественных мест</h5>
+          </div>
+          <div class="medium-4 columns fi-laptop">
+            <h5>Установка и настройка ПО</h5>
+          </div>
+          <div class="medium-4 columns fi-laptop">
+            <h5>Установка и настройка сети</h5>
+          </div>
+      </div>
+
+      <div class="row features2">
+          <div class="medium-4 columns fi-laptop">
+            <h5>Установка и настройка Windows (desktop and server) и *nix систем</h5>
+          </div>
+          <div class="medium-4 columns fi-laptop">
+            <h5>Установка и настрока оборудования</h5>
+          </div>
+          <div class="medium-4 columns fi-laptop">
+            <h5>Выезд и консультация специалиста</h5>
+          </div>
+      </div>
+</div>
+
+
+<!-- *****************CALCULATOR********************* -->
+<div class="zz">
+<hr >
+<h2 class="text-center myheader" id="calculator" data-magellan-target="calculator">Калькулятор</h2>
+<form id="calcForm" class="wrap3">
+          <h3>Рассчитать стоимость услуг</h3>
+          <label>
+            Количество компьютеров
+            <input id="computers" type="number" min="0" max="1000">
+          </label>
+          <label>
+            Количество принтеров
+            <input id="printers" type="number" min="0" max="1000">
+          </label>
+          <label>
+            Количество серверов
+            <input id="servers" type="number" min="0" max="1000">
+          </label>
+
+          </label>
+          <label>Поддержка
+            <select id="support">
+              <option value="offf">Отсутствует</option>
+              <option value="standartt">Стандартная</option>
+              <option value="247">24/7</option>
+            </select>
+          </label>
+          <div class="row">
+            <fieldset class="large-12 columns">
+              <legend>Дополнительные услуги</legend>
+              <input id="checkbox1" type="checkbox"><label for="checkbox1">Выезд инженера</label>
+              <input id="checkbox2" type="checkbox"><label for="checkbox2">Мониторинг 24/7</label>
+              <input id="checkbox3" type="checkbox"><label for="checkbox3">Минет</label>
+            </fieldset>
+          </div>
+          <a class="button" onclick="answer()">Посчитать</a>
+          <h5 id="output_answer"></h5>
+          <div class="reqButton" id="butt" data-magellan data-options="barOffset:45;">
+            <a href="#sendyou" class="button" onclick="showsendmail()">Оформить заявку</a>
+          </div>
+        </form>
+
+        <div id="sendprice" class="wrap3">
+          {% if success %}
+            <p>Thank you for your message. Please reload this page to send another one.</p>
+          {% else %}
+          {% for message in form.namee.errors %}
+            <div class="flash">{{ message }}</div>
+          {% endfor %}
+          {% for message in form.emaile.errors %}
+            <div class="flash">{{ message }}</div>
+          {% endfor %}
+          {% for message in form.phone.errors %}
+            <div class="flash">{{ message }}</div>
+          {% endfor %}
+          <form class="footer-form" method=post>
+            <h5 id="sendyou" data-magellan-target="sendyou">Оставьте контактные данные и мы свяжемся с Вами</h5>
+            <br>
+
+
+                        {{ form.hidden_tag() }}
+                        {{ form.namee.label }}
+                        {{ form.namee }}
+                        {{ form.emaile.label }}
+                        {{ form.emaile }}
+                        {{ form.phone.label }}
+                        {{ form.phone }}
+                        {{ form.uprice }}
+                        {{ form.submit }}
+
+          </form>
+          {% endif %}
+        </div>
+<hr>
+
+</div>
+
+<!-- ****************OUR CLIENTS OR WE ARE VENDORS OF FOLLOWING SOFTWARE**************** -->
+    <section class="main">
+      <div class="wrap2">
+
+              <div class="row small-8 medium-12 columns">
+                <h2 class="text-center myheader2" id="second" data-magellan-target="second">Наши вендоры</h2>
+              </div>
+                <div class="row small-up-1 medium-up-2 large-up-4 features2">
+
+                  <div class="column img-hover">
+                    <img src="/static/images/microsoft.png" class="my-thumbnail" alt="">
+                  </div>
+                  <div class="column img-hover">
+                    <img src="/static/images/abbyy.png" class="my-thumbnail" alt="">
+                  </div>
+                  <div class="column img-hover">
+                    <img src="/static/images/eset.png" class="my-thumbnail" alt="">
+                  </div>
+                  <div class="column img-hover">
+                    <img src="/static/images/adobe.png" class="my-thumbnail" alt="">
+                  </div>
+
+
+                </div>
+
+                <div class="row small-up-1 medium-up-2 large-up-4 features2">
+
+                  <div class="column img-hover">
+                    <img src="/static/images/autodesk.png" class="my-thumbnail" alt="">
+                  </div>
+                  <div class="column img-hover">
+                    <img src="/static/images/kaspersky.png" class="my-thumbnail" alt="">
+                  </div>
+                  <div class="column img-hover">
+                    <img src="/static/images/kerio.png" class="my-thumbnail" alt="">
+                  </div>
+                  <div class="column img-hover">
+                    <img src="/static/images/redhat.png" class="my-thumbnail" alt="">
+                  </div>
+
+
+                </div>
+
+<hr>
+
+<!-- ***************CERTIFICATES OR REQUESTS OR RECCOMENDATIONS*************** -->
+              <div class="row small-8 medium-12 columns">
+                <h2 class="text-center myheader2" id="third" data-magellan-target="third">Сертификаты</h2>
+              </div>
+                <div class="row small-up-1 medium-up-2 large-up-3">
+                  <div class="column">
+                    <img src="//placehold.it/300x300" class="thumbnail" alt="">
+                  </div>
+                  <div class="column">
+                    <img src="//placehold.it/300x300" class="thumbnail" alt="">
+                  </div>
+                  <div class="column">
+                    <img src="//placehold.it/300x300" class="thumbnail" alt="">
+                  </div>
+                </div>
+
+<hr>
+
+
+<!-- ************************CONTACTS************************ -->
+<h2 class="text-center myheader2" id="fourth" data-magellan-target="fourth">Контакты</h2>
+
+<div class="row">
+
+
+ <div class="small-centered medium-uncentered small-9 medium-9 columns">
+            <iframe width="100%" height="500" frameborder="0" style="border:0; padding-bottom: 3px;"
+			src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJYfFN1gutyTgRj8axEQdfdjI&key=AIzaSyAgSLIIq78TkyVH6lLm6-zGzR7XyKHA_iI" allowfullscreen></iframe>
+
+          </div>
+
+</script>
+          <div class="small-centered medium-uncentered small-3 medium-3 columns">
+            <h5>Телефон: <span class="contacts">915 61 5555</span></h5>
+            <h5>Адрес: <span class="contacts">ул. Мехнат 4</span></h5>
+            <h5>Почта: <span class="contacts">olim@nottsb.tj</span></h5>
+          </div>
+      </div>
+      </div>
+      </section>
+{% endblock %}

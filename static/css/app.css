@@ -1,0 +1,341 @@
+body {
+  background-color: #ffffff;
+}
+
+.wrap {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.wrap2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrap3 {
+  width: 70%;
+  margin: 0 auto;
+}
+/***************** TOP BAR ****************/
+.my-nav {
+  background-color: #292c2f;
+  height: 70px;
+  padding: 0;
+}
+.my-nav .menu-desktop {
+  line-height: 70px;
+  background-color: transparent;
+}
+
+.my-nav .menu-desktop2 {
+  line-height: 70px;
+  background-color: transparent;
+}
+
+.my-nav .menu-desktop a {
+  display: inline-block;
+  line-height: 70px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #eaeaea;
+}
+
+.my-nav .menu-desktop2 a {
+  display: inline-block;
+  line-height: 70px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #eaeaea;
+}
+
+.my-nav .menu-desktop a:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.top-bar ul li {
+  float: none;
+  display: inline-block;
+}
+
+.top-bar-left a {
+  font-size: 24px;
+}
+
+@media (max-width: 991px) {
+  .top-bar-left {
+    display: none;
+  }
+}
+
+@media (max-width: 749px) {
+  .nav-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .my-nav {
+  height: auto;
+  }
+  .my-nav .menu-desktop {
+    line-height: auto;
+  }
+  .my-nav .menu-desktop2 {
+    line-height: auto;
+  }
+  .my-nav .menu-desktop a {
+    line-height: auto;
+  }
+
+}
+
+/***************** HERO ****************/
+
+html, body, #heroimage{
+  width:100%;
+  height:100%;
+}
+
+#heroimage{
+  background:url("tech_new_2.jpg") center center;
+  background-size:cover;
+}
+
+#heroimage .intro {
+  padding: 5%;
+  position: relative;
+  top: 48%;
+  transform: translateY(-48%); }
+#heroimage h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1.5em;
+  letter-spacing: -0.025em;
+  font-weight: 300;
+  text-align: right; }
+#heroimage p {
+  color: #fff;
+  line-height: 1.75em;
+  font-weight: 200;
+  text-align: right;
+  margin-bottom: 2rem; }
+#heroimage .button {
+  background-color: #50a02e;
+  color: #fff;
+  line-height: 1.75em;
+  font-size: 1rem;
+  float: right;
+}
+
+@media (max-width: 640px) {
+  #heroimage h1 {
+    font-size: 2rem;
+  }
+
+}
+
+/***************** ADVANTAGES ****************/
+
+.features {
+  margin-top: 7em;
+  text-align: center; }
+  .features hr {
+    width: 25%;
+    margin: 1rem auto; }
+  .features .round-icon {
+    background-color: #50a02e;
+    border-radius: 50%;
+    display: table;
+    height: 100px;
+    margin: -61px auto 1rem;
+    width: 100px;
+    font-size: 3rem; }
+    .features .round-icon span {
+      color: #fff;
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle; }
+  @media only screen and (max-width: 40em) {
+    .features .columns {
+      margin-bottom: 5rem; } }
+
+.features2 {
+  margin-top: 3em;
+  text-align: center; }
+  .features2 hr {
+    width: 25%;
+    margin: 1rem auto; }
+  @media only screen and (max-width: 40em) {
+    .features2 .columns {
+      margin-bottom: 5rem; } }
+
+.main {
+  padding: 20px 30px 40px 30px;
+}
+
+.myheader {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.myheader2 {
+  margin-bottom: 1em;
+}
+
+form .button {
+  background-color: #50a02e;
+}
+
+form .button:hover {
+  background-color: #50a02e;
+}
+
+/***************** CONTACT US ****************/
+.footer-form {
+  width: 80%;
+}
+.footer-form textarea, .footer-form input#name,.footer-form input#email {
+    border-radius: 3px;
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: normal;
+    padding: 1.3rem; }
+.footer-form label {
+    color: black;
+    font-size: 1.1rem;
+    margin: 0 0 1rem 0;
+    /*font-weight: bold;*/ }
+
+.footer-form input#submit {
+    border-radius: 3px;
+    border: 0;
+    padding: 1rem 3.5rem;
+    font-weight: bold;
+    float: left;
+    margin: 0 1rem 2rem 0;
+    background-color: #50a02e;
+    color: #fff; }
+
+.flash {
+  background-color: #FBB0B0;
+  padding: 10px;
+}
+/***************FOOTER*****************/
+.new-footer {
+  background-color: #292c2f;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem; }
+  .new-footer .social a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+    margin: 0 3px 0 0; }
+  .new-footer .copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 1rem 0 1rem 0; }
+
+  .new-footer .footer-links a {
+    list-style: none;
+    font-weight: normal;
+    color: #fff;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    font-size: 0.875rem; }
+    .new-footer .footer-links a::after {
+      content: "•";
+      padding: 0 0.2rem 0 0.4rem; }
+    .new-footer .footer-links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
+  @media only screen and (min-width: 40.063em) {
+    .new-footer {
+      padding: 4rem; }
+      .new-footer p {
+        text-align: left; }
+      .new-footer .social {
+        text-align: left;
+        margin: 0; }
+      .new-footer .footer-form .contact {
+        position: absolute;
+        left: -45%;
+        top: 10%; } }
+
+.logo {
+  color: #fff;
+  font-size: 1.7rem; }
+  .logo i {
+    margin-right: 0.5rem; }
+
+.logo-phone {
+  color: #fff;
+  font-size: 1.3rem; }
+  .logo-phone i {
+    margin-right: 0.5rem; }
+
+.img-hover {
+  /*opacity: 0.5;
+  filter: alpha(opacity=50);*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.img-hover:hover{
+  -webkit-filter: grayscale(1%);
+  filter: grayscale(1%);
+  /*opacity: 1;
+  filter: alpha(opacity=100);*/
+}
+
+.my-thumbnail {
+    border: solid 4px #fefefe;
+    box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+    display: inline-block;
+    line-height: 0;
+    max-width: 100%;
+    transition: box-shadow 200ms ease-out;
+    border-radius: 0;
+    margin-bottom: 1rem;
+}
+
+.my-thumbnail:hover, .my-thumbnail:focus {
+    box-shadow: 0 0 6px 1px rgb(80, 160, 46);
+}
+
+.contacts {
+  color: #50a02e;
+  font-weight:bold;
+}
+
+.fi-laptop {
+  font-size: 6rem;
+  color: #50a02e;;
+}
+
+.fi-laptop h5 {
+  color: black;
+}
+
+.zz {
+  /*background-color: #eaeaea;*/
+  background: url("gplaypattern.png");
+}
+
+#butt {
+  display: none;
+}
+
+#sendprice {
+  display: none;
+}
+
+#uprice {
+  display: none;
+}
